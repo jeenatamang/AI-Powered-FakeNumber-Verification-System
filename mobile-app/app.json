@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MeroSuraksha",
+    "slug": "merosuraksha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202940"
+    },
+    "android": {
+      "package": "com.merosuraksha.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#202940"
+      },
+      "permissions": [
+        "android.permission.READ_SMS",
+        "android.permission.RECEIVE_SMS",
+        "android.permission.READ_CONTACTS",
+        "android.permission.READ_CALL_LOG"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.merosuraksha.app"
+    },
+    "platforms": ["ios", "android", "web"]
+  }
+}
